@@ -1,0 +1,18 @@
+/* selector or type selector */
+
+
+background-color: pink;
+}
+/* class selector */
+
+/*
+  selector {
+    property: value;
+    property; value;
+
+}
+*/
+
+.redlining {
+  color: red;
+  }
