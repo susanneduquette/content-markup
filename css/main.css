@@ -1,9 +1,34 @@
 /* selector or type selector */
 
-
-background-color: pink;
-}
+mark {
+  background-color: rgb(255, 255, 0);
+  }
 /* class selector */
+
+
+/* hexadecimal color: Black to white, with grayscale inbetween
+0123456789abcdef
+*/
+
+ins {
+    color: #f00;
+    }
+
+
+/* --- class selector --- */
+
+.underline {
+  text-decoration: underline;
+  }
+
+.italic {
+  font-style: italic;
+  }
+
+.small-caps {
+    font-variant: small-caps;
+  }
+
 
 /*
   selector {
@@ -13,6 +38,27 @@ background-color: pink;
 }
 */
 
-.redlining {
+/* .redlining {
   color: red;
-  }
+  } */
+
+  /* ---------------------------
+  Resources
+  - CSS Vocabulary
+  http://nimbupani.com/css-vocabulary.html
+  - CSS Selectors
+  https://www.quirksmode.org/css/selectors/
+  - CSS Named Colors
+  http://htmlcolorcodes.com/color-names/
+  - CSS Validation Service
+  https://jigsaw.w3.org/css-validator/
+  - Naming CSS Stuff Is Really Hard
+  https://seesparkbox.com/foundry/naming_css_stuff_is_really_hard
+  - Key Copyediting Terms
+  https://www.thoughtco.com/key-copyediting-terms-1692372
+  - - -
+  Change Log
+  - shorten .redlining to .redline
+  --------------------------- */
+
+  /* --- selector or (element) type selector --- */
